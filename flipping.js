@@ -1,3 +1,7 @@
 function flipBooleans(bools) {
-    return bools.map((bool)=>!bool);
+    let flippedArray = [];
+bools.forEach(bool=>{
+  flippedArray.push(!bool);
+});
+return flippedArray;
 }
